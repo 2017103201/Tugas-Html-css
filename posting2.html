@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css"
+media="all" href="style.css">
+
+<meta charset="utf-8" />
+<script language='JavaScript'>
+var txt="Baruto and friend-2017103201 ";
+var speed=300;
+var refresh=null;
+function action() { document.title=txt;
+txt=txt.substring(1,txt.length)+txt.charAt(0);
+refresh=setTimeout("action()",speed);}action();
+</script>
+</head>
+<body>
+	<div id="layout">
+		<div id="header">
+		<img src="team7.jpg" class="header">
+		</div>
+		<div id="menu">
+			<ul>
+				<li><a href="Home.html">Home</a></li>
+				<li><a href="profile.html">Profile</a></li>
+				<li><a href="contact.html">Contact Me</a></li>
+			</ul>
+		</div>
+		<div id="runingtext">
+		<marquee behavior="scroll" scrollamount="3" onmouseover="this.stop();" direction="left">
+			Selamat Datang di Dunia Ninja
+		</marquee>
+		</div>
+		<div id="sidebar">
+		<div class="widged">
+		<img src="tokopedia.gif" class="gambariklan">
+		</div>
+		<div class="widged">
+		<h1 class="judulwidged">Posting Teratas</h1>
+		<ul>
+			<li><a href="posting1.html">NARUTO UZUMAKI</a></li>
+			<li><a href="posting2.html">SASUKE UCHIHA</a></li>
+			<li><a href="posting3.html">SAKURA HARUNO</a></li>
+		</ul>
+		</div>
+		</div>
+		<div id="isi">
+			<div class="isiposting1">
+			<img src="sasuke.jpg" class="gambarposting1">
+			<h2> SASUKE UCHIHA </h2>
+			Sasuke Uchiha (うちはサスケ, Uchiha Sasuke) adalah salah satu anggota terakhir klan Uchiha 
+			yang masih bertahan dari Konohagakure. Setelah kakaknya, Itachi, membantai klan mereka, 
+			Sasuke berusaha mewujudkan misinya dalam rangka untuk membalas dendam dengan membunuh Itachi. 
+			Dia dimasukkan ke Tim 7 saat menjadi seorang ninja dan, melalui persaingan dengan rival dan sahabatnya, 
+			Naruto Uzumaki, Sasuke mulai mengembangkan keahliannya. Tidak puas dengan kemajuannya, ia pergi dari 
+			Konoha sehingga ia bisa memperoleh kekuatan yang dibutuhkan untuk membalas dendam. Tahun-tahunnya untuk 
+			membalas dendam menjadi semakin berat, tidak masuk akal dan mengasingkan dia dari orang lain, sehingga 
+			membuatnya menjadi penjahat internasional. Setelah membuktikan dirinya sebagai penolong dalam mengakhiri 
+			Perang Dunia Shinobi Keempat dan dengan senang hati dibebaskan oleh Naruto, Sasuke memutuskan untuk 
+			kembali ke Konoha dan mengabdikan hidupnya untuk membantu melindungi desa serta penduduknya.
+		</div>
+		</div>
+		<div id="footer"> &copy 2017, by AlifRizki-2017103201 </div>
+	</div>
+		
+</body>
+</html>

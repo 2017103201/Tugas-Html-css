@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css"
+media="all" href="style.css">
+
+<meta charset="utf-8" />
+<script language='JavaScript'>
+var txt="Baruto and friend-2017103201 ";
+var speed=300;
+var refresh=null;
+function action() { document.title=txt;
+txt=txt.substring(1,txt.length)+txt.charAt(0);
+refresh=setTimeout("action()",speed);}action();
+</script>
+</head>
+<body>
+	<div id="layout">
+		<div id="header">
+		<img src="team7.jpg" class="header">
+		</div>
+		<div id="menu">
+			<ul>
+				<li><a href="Home.html">Home</a></li>
+				<li><a href="profile.html">Profile</a></li>
+				<li><a href="contact.html">Contact Me</a></li>
+			</ul>
+		</div>
+		<div id="runingtext">
+		<marquee behavior="scroll" scrollamount="3" onmouseover="this.stop();" direction="left">
+			Selamat Datang di Dunia Ninja
+		</marquee>
+		</div>
+		<div id="sidebar">
+		<div class="widged">
+		<img src="tokopedia.gif" class="gambariklan">
+		</div>
+		<div class="widged">
+		<h1 class="judulwidged">Posting Teratas</h1>
+		<ul>
+			<li><a href="posting1.html">NARUTO UZUMAKI</a></li>
+			<li><a href="posting2.html">SASUKE UCHIHA</a></li>
+			<li><a href="posting3.html">SAKURA HARUNO</a></li>
+		</ul>
+		</div>
+		</div>
+		<div id="isi">
+			<div class="isiposting1">
+			<img src="naruto.jpg" class="gambarposting1">
+			<h2> NARUTO UZUMAKI </h2>
+			Naruto Uzumaki (うずまきナルト, Uzumaki Naruto) adalah shinobi dari Konohagakure. Dia menjadi jinchūriki 
+			dari Ekor Sembilan pada hari kelahirannya — sebuah nasib yang menyebabkan dia dijauhi oleh sebagian besar 
+			penduduk Konoha sepanjang masa kecilnya. Setelah bergabung dengan Tim Kakashi, Naruto bekerja keras untuk 
+			mendapatkan pengakuan desa sambil mengejar mimpinya untuk menjadi Hokage. Pada tahun-tahun berikutnya, 
+			melalui banyak kesulitan dan cobaan berat, ia menjadi ninja yang cakap yang dianggap sebagai pahlawan baik 
+			oleh penduduk desa, dan segera setelah itu, seluruh dunia, sehingga dikenal sebagai Pahlawan dari Konoha 
+			(木ノ葉隠れの英雄, Konohagakure no Eiyū; Secara harfiah berarti "Hero of the Hidden Tree Leaves"). 
+			Dia segera terbukti menjadi salah satu faktor utama dalam memenangkan Perang Dunia Shinobi Keempat, 
+			yang membawanya mencapai mimpinya dan menjadi Hokage Ketujuh
+			
+		</div>
+		</div>
+		<div id="footer"> &copy 2017, by AlifRizki-2017103201 </div>
+	</div>
+		
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css"
+media="all" href="style.css">
+
+<meta charset="utf-8" />
+<script language='JavaScript'>
+var txt="Baruto and friend-2017103201 ";
+var speed=300;
+var refresh=null;
+function action() { document.title=txt;
+txt=txt.substring(1,txt.length)+txt.charAt(0);
+refresh=setTimeout("action()",speed);}action();
+</script>
+</head>
+<body>
+	<div id="layout">
+		<div id="header">
+		<img src="team7.jpg" class="header">
+		</div>
+		<div id="menu">
+			<ul>
+				<li><a href="Home.html">Home</a></li>
+				<li><a href="profile.html">Profile</a></li>
+				<li><a href="contact.html">Contact Me</a></li>
+			</ul>
+		</div>
+		<div id="runingtext">
+		<marquee behavior="scroll" scrollamount="3" onmouseover="this.stop();" direction="left">
+			Selamat Datang di Dunia Ninja
+		</marquee>
+		</div>
+		<div id="sidebar">
+		<div class="widged">
+		<img src="tokopedia.gif" class="gambariklan">
+		</div>
+		<div class="widged">
+		<h1 class="judulwidged">Posting Teratas</h1>
+		<ul>
+			<li><a href="posting1.html">NARUTO UZUMAKI</a></li>
+			<li><a href="posting2.html">SASUKE UCHIHA</a></li>
+			<li><a href="posting3.html">SAKURA HARUNO</a></li>
+		</ul>
+		</div>
+		</div>
+		<div id="isi">
+			<div class="isiposting">
+			<img src="naruto.jpg" class="gambardepan">
+			<h2> NARUTO UZUMAKI </h2>
+			Naruto Uzumaki (うずまき ナルト Uzumaki Naruto?) adalah tokoh fiktif dari serial anime dan manga Naruto. Ia merupakan tokoh utama 
+			dalam serial ini. Ia digambarkan sebagai bocah berambut pirang dan bermata biru. Di pipinya ada semacam guratan yang mirip seperti kumis 
+			milik karakter Doraemon dalam manga Doraemon. Ia sering terlihat memakai jaket dan celana panjang berwarna jingga. Di dahinya ada ikat kepala 
+			berwarna biru dengan lambang desa kelahirannya....<br>
+			<a href="posting1.html">
+			Baca selangkapnya >>>>>>
+			</a>
+		</div>
+		<div class="isiposting">
+			<img src="sasuke.jpg" class="gambardepan">
+			<h2> SASUKE UCHIHA </h2>
+			Sasuke Uchiha (うちはサスケ, Uchiha Sasuke) adalah salah satu anggota terakhir klan Uchiha yang masih bertahan dari Konohagakure. Setelah kakaknya,
+			Itachi, membantai klan mereka, Sasuke berusaha mewujudkan misinya dalam rangka untuk membalas dendam dengan membunuh Itachi. Dia dimasukkan ke Tim 7
+			saat menjadi seorang ninja dan, melalui persaingan dengan rival dan sahabatnya, Naruto Uzumaki, Sasuke mulai mengembangkan keahliannya. <br>
+			<a href="posting2.html">
+			Baca selangkapnya >>>>>>
+			</a>
+		</div>
+		<div class="isiposting">
+			<img src="Sakura.png" class="gambardepan">
+			<h2> SAKURA HARUNO </h2>
+			Sakura Uchiha (うちはサクラ, Uchiha Sakura; née Haruno (春野)) adalah kunoichi dari Konohagakure. Ketika dia ditugaskan ke Tim 7, Sakura dengan cepat 
+			merasa dirinya tidak siap menghadapi tugas seorang ninja dan serta seluk-beluk kehidupan rekan setimnya. Dengan berlatih di bawah gurunya, Tsunade, 
+			dia menjadi mampu menghadapi tantangan menjadi seorang ninja dan diakui sebagai salah satu ninja medis terbesar di dunia. <br>
+			<a href="posting3.html">
+			Baca selangkapnya >>>>>>
+			</a>
+		</div>
+		</div>
+		<div id="footer"> &copy 2017, by AlifRizki-2017103201 </div>
+	</div>
+		
+</body>
+</html>
